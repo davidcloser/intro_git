@@ -45,4 +45,4 @@ def truncate_words(list_of_words: list, max_len: int) -> list:
 if __name__ == "__main__":
     assert get_longest_word(["Hello", "Python", "rat"]) == "Python"
     assert sum_of_evens([1, 2, 3, 4]) == 6
-    assert truncate_words(["Hello", "Python", "rat"]) == ["Hel", "Pyt", "rat"]
+    assert truncate_words(["Hello", "Python", "rat"], 3) == ["Hel", "Pyt", "rat"]
